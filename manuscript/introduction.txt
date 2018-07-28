@@ -70,14 +70,14 @@ This book is updated regularly. If you purchased the *Markdown Guide* and provid
 
 ## Contributing
 
-This book is an open-source project, and your contributions are welcome. The repository is hosted on GitHub. See the README for instructions and guidelines.
+This book is an open-source project, and your contributions are welcome. The [repository](https://github.com/mattcone/markdown-guide-book) is hosted on GitHub. See the [README](https://github.com/mattcone/markdown-guide-book/blob/master/README.md) for instructions and guidelines.
 
 ## Reporting Issues
 
-Find something wrong? Create an issue on GitHub and I'll fix it as soon as possible. Thank you!
+Find something wrong? [Create an issue](https://github.com/mattcone/markdown-guide-book/issues) on GitHub and I'll fix it as soon as possible. Thank you!
 
 ## Acknowledgements
 
 I'm eternally grateful to Reem and our children, Finn and Simon. This book wouldn't exist without their love and support. 
 
-I greatly appreciate the help of AK Molteni, Gaylin Walli, Juan Torrez, Diana Lynch, and my parents, Steve Cone and Kathie Lathan, who were sounding boards for the website and book. Thanks to [Josh Ellingson](http://ellingson.cc/) for creating the jaw-dropping artwork on the cover. Last, but certainly not least, I'd like to thank *you* and everyone else who has read and contributed to the *Markdown Guide*. You've not only made this book possible, you've made it better!
+I greatly appreciate the help of AK Molteni, Gaylin Walli, Juan Torrez, Diana Lynch, and my parents, Steve Cone and Kathie Lathan, who were sounding boards for the website and book. Thanks to [Josh Ellingson](http://ellingson.cc/) for creating the amazing, jaw-dropping artwork on the cover. Last, but certainly not least, I'd like to thank *you* and everyone else who has read and contributed to the *Markdown Guide*. You've not only made this book possible, you've made it better!

@@ -4,7 +4,7 @@ This is the source repository for the *Markdown Guide* book. You can [download](
 
 ## Contributing
 
-Your contributions are welcome. Feel free to create issues and open a pull requests. I use [Leanpub](https://leanpub.com/) to publish the book. If you have questions about the syntax, please refer to [their manual](https://leanpub.com/help/manual).
+Your contributions are welcome. Feel free to create issues and open pull requests. I use [Leanpub](https://leanpub.com/) to publish the book. If you have questions about the syntax, please refer to [their manual](https://leanpub.com/help/manual).
 
 ## Purchasing the book
 
