@@ -675,7 +675,25 @@ The rendered output of all three looks identical:
 
 ## Links {#links}
 
-To create a link, enclose the link text in brackets (e.g., `[Duck Duck Go]`) and then follow it immediately with the URL in parentheses (e.g., `(https://duckduckgo.com)`). You can optionally add a title after the URL in the parentheses.
+To create a link, enclose the link text in brackets (e.g., `[Duck Duck Go]`) and then follow it immediately with the URL in parentheses (e.g., `(https://duckduckgo.com)`).
+
+{title="Markdown"}
+~~~~~~~
+Use [Duck Duck Go](https://duckduckgo.com).
+~~~~~~~
+
+{title="HTML", lang=html}
+~~~~~~~
+<p>Use <a href="https://duckduckgo.com">Duck Duck Go</a>.</p>
+~~~~~~~
+
+The rendered output looks like this:
+
+Use [Duck Duck Go](https://duckduckgo.com).
+
+### Adding Titles
+
+You can optionally add a title for a link. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in parentheses after the URL.
 
 {title="Markdown"}
 ~~~~~~~
