@@ -18,17 +18,7 @@ I hope you enjoy reading this book as much as I've enjoyed writing it. Above all
 
 ## Where to Get This Book
 
-I want everyone to read the *Markdown Guide*. That's why it's [free to download](https://www.markdownguide.org) in PDF format. I hope you share it with your friends and family. The vast majority of the book is also available online at <https://www.markdownguide.org>.
-
-If you'd like purchase the *Markdown Guide*, there are two options available:
-
-- **$4.99** gets you the book in PDF, MOBI, and EPUB format. It's perfect for reading on portable devices like the Kindle. To keep you in the loop, I'll send you an email notification every time I update the book. 
-
-- **$9.99** gets you the book, update notifications, and access to a private Slack channel with myself and your fellow readers. Get personal, one-on-one help with all your Markdown issues.
-
-Visit <https://www.markdownguide.org/book> to purchase the book.
-
-I'm donating all of the proceeds to [Watsi](https://watsi.org/), a non-profit organization that helps fund life-changing surgery for patients in developing countries. If you purchased the *Markdown Guide*, thank you! Together, we're making a difference in the lives of people without access to affordable medical care.
+I want everyone to read the *Markdown Guide*. That's why it's [free to download](https://www.markdownguide.org/book) in PDF, MOBI, and EPUB format. I hope you share it with your friends and family. The vast majority of the book is also available online at <https://www.markdownguide.org>.
 
 ## How to Read This Book
 
