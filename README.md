@@ -1,6 +1,6 @@
 ![Markdown Guide book cover](cover.png)
 
-This is the source repository for the *Markdown Guide* book. You can [download the book in PDF format](https://www.markdownguide.org/assets/book/markdown-guide.pdf) for free.
+This is the source repository for the *Markdown Guide* book. You can [download the book](https://www.markdownguide.org/book) for free.
 
 ## Contributing
 
