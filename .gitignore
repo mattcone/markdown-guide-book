@@ -19,7 +19,7 @@ site/
 ._*
 
 # Files that might appear in the root of a volume
-Icon
+Icon[^M^M]
 .dropbox
 .DocumentRevisions-V100
 .fseventsd
