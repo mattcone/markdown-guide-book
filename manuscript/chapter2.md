@@ -8,11 +8,15 @@ Here are some examples of what you can do with Markdown.
 
 ## Websites
 
-Markdown was designed for the web, so it should come as no surprise that there are plenty of applications specifically designed for creating website content. If you'd like to use a content management system (CMS) to power your website, take a look at [Ghost](https://ghost.org/). It's a free and  open-source blogging platform with a nice Markdown editor. If you're a WordPress user, you'll be happy to know there's [Markdown support](https://en.support.wordpress.com/markdown/) for websites hosted on WordPress.com. Self-hosted WordPress sites can use the [Jetpack plugin](https://jetpack.com/support/markdown/).
+Markdown was designed for the web, so it should come as no surprise that there are plenty of applications specifically designed for creating website content.
+
+If you're looking for the simplest possible way to create a website with Markdown files, check out [blot.im](https://blot.im) and [smallvictori.es](https://smallvictori.es). After you sign up for one of these services, they create a Dropbox folder on your computer. Just drag and drop your Markdown files into the folder and — poof! — they're on your website. It couldn't be easier.
 
 If you're familiar with HTML, CSS, and version control, check out [Jekyll](https://jekyllrb.com/), a popular static site generator that takes Markdown files and builds an HTML website. One advantage to this approach is that [GitHub Pages](https://pages.github.com/) provides free hosting for Jekyll-generated websites. If Jekyll isn't your cup of tea, just pick one of the [many other static site generators available](https://www.staticgen.com/).
 
 I> I used Jekyll to create the [Markdown Guide](https://www.markdownguide.org) website. You can view the source code on [GitHub](https://github.com/mattcone/markdown-guide).
+
+If you'd like to use a content management system (CMS) to power your website, take a look at [Ghost](https://ghost.org/). It's a free and open-source blogging platform with a nice Markdown editor. If you're a WordPress user, you'll be happy to know there's [Markdown support](https://en.support.wordpress.com/markdown/) for websites hosted on WordPress.com. Self-hosted WordPress sites can use the [Jetpack plugin](https://jetpack.com/support/markdown/).
 
 ## Documents
 
@@ -54,5 +58,7 @@ If you send a lot of email and you're tired of the formatting controls available
 Markdown is a natural fit for technical documentation. Companies like GitHub are increasingly switching to Markdown for their documentation — check out their [blog post](https://github.com/blog/1939-how-github-uses-github-to-document-github) about how they migrated their Markdown-formatted documentation to [Jekyll](https://jekyllrb.com/). If you write documentation for a product or service, take a look at these handy tools:
 
 - **[Read the Docs](https://readthedocs.org)** can generate a documentation website from your open source Markdown files. Just connect your GitHub repository to their service and push — Read the Docs does the rest. They also have a [service for commercial entities](https://readthedocs.com/).
-- **[Jekyll](https://jekyllrb.com/)** was mentioned earlier in the section on websites, but it's also a good option for generating a documentation website from Markdown files. If you go this route, be sure to check out the [Jekyll documentation theme](http://idratherbewriting.com/documentation-theme-jekyll/).
 - **[MkDocs](http://www.mkdocs.org/)** is a fast and simple static site generator that's geared towards building documentation. The source files are written in Markdown and organized with a single YAML configuration file. MkDocs has several [built in themes](http://www.mkdocs.org/user-guide/styling-your-docs/), including a port of the [Read the Docs](https://readthedocs.org/) documentation theme. One of the newest themes is [MkDocs Material](https://squidfunk.github.io/mkdocs-material/), which incorporates elements of Google's Material Design.
+- **[Docusaurus](https://docusaurus.io/)** is a static site generator designed exclusively for creating documentation websites. It supports translations, search, and versioning.
+- **[VuePress](https://vuepress.vuejs.org/)** is a static site generator powered by [Vue](https://vuejs.org/) and optimized for writing technical documentation.
+- **[Jekyll](https://jekyllrb.com/)** was mentioned earlier in the section on websites, but it's also a good option for generating a documentation website from Markdown files. If you go this route, be sure to check out the [Jekyll documentation theme](http://idratherbewriting.com/documentation-theme-jekyll/).
