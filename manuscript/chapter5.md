@@ -60,6 +60,9 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 |-------------------|------------------------------------------------------|
 | [Heading ID](#heading-ids)  | `### My Great Heading {#custom-id}`        |
 |-------------------|------------------------------------------------------|
+| [Definition List](#definition-lists)  | `term`                           |
+|                   | `: definition`                                       |
+|-------------------|------------------------------------------------------|
 | [Strikethrough](#strikethrough)  | `~~The world is flat.~~`              |
 |-------------------|------------------------------------------------------|
 | [Task List](#task-lists)  | `- [x] Write the press release`              |

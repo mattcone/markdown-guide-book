@@ -290,6 +290,40 @@ You can link to headings with custom IDs in the file by creating a [standard lin
 
 Other websites can link to the heading by adding the custom heading ID to the full URL of the webpage (e.g, `[Heading IDs](https:/www.eff.org/page#heading-ids)`).
 
+## Definition Lists {#definition-lists}
+
+Some Markdown processors allow you to create *definition lists* of terms and their corresponding definitions. To create a definition list, type the term on the first line. On the next line, type a colon followed by a space and the definition.
+
+{title="Markdown"}
+~~~~~~~
+First Term
+: This is the definition of the first term.
+
+Second Term
+: This is one definition of the second term.
+: This is another definition of the second term.
+~~~~~~~
+
+{title="HTML", lang=html}
+~~~~~~~
+<dl>
+  <dt>First Term</dt>
+  <dd>This is the definition of the first term.</dd>
+  <dt>Second Term</dt>
+  <dd>This is one definition of the second term. </dd>
+  <dd>This is another definition of the second term.</dd>
+</dl>
+~~~~~~~
+
+The rendered output looks like this:
+
+First Term
+: This is the definition of the first term.
+
+Second Term
+: This is one definition of the second term.
+: This is another definition of the second term.
+
 ## Strikethrough {#strikethrough}
 
 You can “strikethrough” words by putting a horizontal line through the center of them. This feature allows you to indicate that certain words are a mistake not meant for inclusion in the document. To strikethrough words, use two tilde symbols (`~~`) before and after the words.
