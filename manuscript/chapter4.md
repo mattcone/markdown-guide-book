@@ -72,9 +72,9 @@ Cell widths can vary, as shown below. The rendered output will look the same.
 | Paragraph | Text |
 ~~~~~~~
 
-T> Creating tables with hyphens and pipes can be tedious. To speed up the process, try using the [Markdown Tables Generator](http://www.tablesgenerator.com/markdown_tables). Build a table using the graphical interface, and then copy the generated Markdown-formatted text into your file. 
+T> Creating tables with hyphens and pipes can be tedious. To speed up the process, try using the [Markdown Tables Generator](http://www.tablesgenerator.com/markdown_tables). Build a table using the graphical interface, and then copy the generated Markdown-formatted text into your file.
 
-### Alignment 
+### Alignment
 
 You can align text in the columns to the left, right, or center by adding a colon (`:`) to the left, right, or on both side of the hyphens within the header row.
 
@@ -235,12 +235,12 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 <section class="footnotes">
   <hr />
   <ol>
-    <li id="fn1"><p>This is the first footnote.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+    <li id="fn1"><p>This is the first footnote.<a href="#fnref1" class="footnote-back">&#8617;&#xFE0E;</a></p></li>
     <li id="fn2">
       <p>Here’s one with multiple paragraphs and code.</p>
       <p>Indent paragraphs to include them in the footnote.</p>
       <p><code>{ my code }</code></p>
-      <p>Add as many paragraphs as you like.<a href="#fnref2" class="footnote-back">↩</a></p>
+      <p>Add as many paragraphs as you like.<a href="#fnref2" class="footnote-back">&#8617;&#xFE0E;</a></p>
     </li>
   </ol>
 </section>
@@ -259,7 +259,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
     `{ my code }`
 
     Add as many paragraphs as you like.
-    
+
 ## Heading IDs {#heading-ids}
 
 Many Markdown processors support custom IDs for [headings](#headings) — some Markdown processors automatically add them. Adding custom IDs allows you to link directly to headings and modify them with CSS. To add a custom heading ID, enclose the custom ID in curly braces on the same line as the heading.
