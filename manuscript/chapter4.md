@@ -124,7 +124,7 @@ You can format the text within tables. For example, you can add [links](#links),
 
 You can’t add headings, blockquotes, lists, horizontal rules, images, or HTML tags.
 
-### Escaping Pipe Characters in Tables
+### Escaping Pipe Characters in Tables {#escaping-pipe-characters-in-tables}
 
 You can display a pipe (`|`) character in a table by using its HTML character code (`&#124;`).
 
@@ -165,6 +165,8 @@ The rendered output looks like this:
   "age": 25
 }
 ```
+
+T> Need to display tick marks inside a code block? See [this section](#escaping-tick-marks) to learn how to escape them. 
 
 ### Syntax Highlighting
 

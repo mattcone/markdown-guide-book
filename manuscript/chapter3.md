@@ -2,7 +2,7 @@
 
 Nearly all Markdown applications support the basic syntax outlined in John Gruber's original design document. There are minor variations and discrepancies between Markdown processors — those are noted inline wherever possible.
 
-T> Using Markdown doesn't mean that you can't also use HTML. You can add HTML tags to any Markdown file. This is helpful if you prefer certain HTML tags to Markdown syntax. For example, some people find that it's easier to use HTML tags for images. 
+T> Using Markdown doesn't mean that you can't also use HTML. You can add HTML tags to any Markdown file. This is helpful if you prefer certain HTML tags to Markdown syntax. For example, some people find that it's easier to use HTML tags for images.
 
 ## Headings {#headings}
 
@@ -191,7 +191,7 @@ Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines betwee
 >
 > And this is the second paragraph.
 ~~~~~~~
-    
+
 {title="HTML", lang=html}
 ~~~~~~~
 <blockquote>
@@ -216,7 +216,7 @@ Blockquotes can be nested. Add a `>>` in front of the paragraph you want to nest
 >
 >> And this is the nested paragraph.
 ~~~~~~~
-    
+
 {title="HTML", lang=html}
 ~~~~~~~
 <blockquote>
@@ -246,7 +246,7 @@ Blockquotes can contain other Markdown formatted elements. Not all elements can 
 >
 >  *Everything* is going **well**.
 ~~~~~~~
-    
+
 {title="HTML", lang=html}
 ~~~~~~~
 <blockquote>
@@ -281,7 +281,7 @@ To create an ordered list, add line items with numbers followed by periods. The 
 1. First item
 2. Second item
 3. Third item
-4. Fourth item 
+4. Fourth item
 
 1. First item
 1. Second item
@@ -291,7 +291,7 @@ To create an ordered list, add line items with numbers followed by periods. The 
 1. First item
 8. Second item
 3. Third item
-5. Fourth item 
+5. Fourth item
 ~~~~~~~
 
 The HTML output of all three example lists is the same.
@@ -303,7 +303,7 @@ The HTML output of all three example lists is the same.
   <li>Second item</li>
   <li>Third item</li>
   <li>Fourth item</li>
-</ol> 
+</ol>
 ~~~~~~~
 
 The rendered output looks like this:
@@ -339,7 +339,7 @@ To nest line items in an ordered list, indent the items four spaces or one tab.
     </ol>
   </li>
   <li>Fourth item</li>
-</ol> 
+</ol>
 ~~~~~~~
 
 The rendered output looks like this:
@@ -360,17 +360,17 @@ To create an unordered list, add dashes (`-`), asterisks (`*`), or plus signs (`
 - First item
 - Second item
 - Third item
-- Fourth item 
+- Fourth item
 
 * First item
 * Second item
 * Third item
-* Fourth item 
+* Fourth item
 
 + First item
 * Second item
 - Third item
-+ Fourth item 
++ Fourth item
 ~~~~~~~
 
 The HTML output of all three example lists is the same.
@@ -390,7 +390,7 @@ The rendered output looks like this:
 - First item
 - Second item
 - Third item
-- Fourth item 
+- Fourth item
 
 #### Nesting List Items
 
@@ -403,7 +403,7 @@ To nest line items in an unordered list, indent the items four spaces or one tab
 - Third item
     - Indented item
     - Indented item
-- Fourth item 
+- Fourth item
 ~~~~~~~
 
 {title="HTML", lang=html}
@@ -428,7 +428,7 @@ The rendered output looks like this:
 - Third item
     - Indented item
     - Indented item
-- Fourth item 
+- Fourth item
 
 ### Adding Elements in Lists
 
@@ -575,7 +575,7 @@ The rendered output looks like this:
 2.  Marvel at its beauty.
 
     ![Tux](images/tux.png)
-    
+
 3.  Close the file.
 
 ## Code {#code}
@@ -589,14 +589,14 @@ At the command prompt, type `nano`.
 
 {title="HTML", lang=html}
 ~~~~~~~
-At the command prompt, type <code>nano</code>. 
+At the command prompt, type <code>nano</code>.
 ~~~~~~~
 
 The rendered output looks like this:
 
 At the command prompt, type `nano`.
 
-### Escaping Tick Marks
+### Escaping Tick Marks {#escaping-tick-marks}
 
 If the word or phrase you want to denote as code includes one or more tick marks, you can escape it by enclosing the word or phrase in double tick marks (`` `` ``).
 
@@ -645,7 +645,7 @@ The rendered output looks like this:
       </head>
     </html>
 
-I> To create code blocks without indenting lines, use [fenced code blocks](#fenced-code-blocks). 
+I> To create code blocks without indenting lines, use [fenced code blocks](#fenced-code-blocks).
 
 ## Horizontal Rules {#horizontal-rules}
 
@@ -858,7 +858,7 @@ You can use a backslash to escape the following characters.
 | Character         | Name                  |
 |-------------------|-----------------------|
 | `\`               | backslash             |
-| `` ` ``           | tickmark              |
+| `` ` ``           | tick mark (see also [escaping tick marks in code](#escaping-tick-marks)) |
 | `*`               | asterisk              |
 | `_`               | underscore            |
 | `{}`              | curly braces          |
@@ -869,3 +869,4 @@ You can use a backslash to escape the following characters.
 | `-`               | minus sign (hyphen)   |
 | `.`               | dot                   |
 | `!`               | exclamation mark      |
+| `|`               | pipe (see also [escaping pipe in tables](#escaping-pipe-characters-in-tables)) |
