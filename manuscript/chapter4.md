@@ -166,7 +166,7 @@ The rendered output looks like this:
 }
 ```
 
-T> Need to display tick marks inside a code block? See [this section](#escaping-tick-marks) to learn how to escape them. 
+T> Need to display tick marks inside a code block? See [this section](#escaping-tick-marks) to learn how to escape them.
 
 ### Syntax Highlighting
 
@@ -290,7 +290,7 @@ You can link to headings with custom IDs in the file by creating a [standard lin
 <a href="#heading-ids">Heading IDs</a>
 ~~~~~~~
 
-Other websites can link to the heading by adding the custom heading ID to the full URL of the webpage (e.g, `[Heading IDs](https:/www.eff.org/page#heading-ids)`).
+Other websites can link to the heading by adding the custom heading ID to the full URL of the webpage (e.g, `[Heading IDs](https://www.eff.org/page#heading-ids)`).
 
 ## Definition Lists {#definition-lists}
 
