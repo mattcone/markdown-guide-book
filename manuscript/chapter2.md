@@ -26,7 +26,8 @@ Here are some Markdown document authoring applications we recommend:
 
 - **Mac:** [iA Writer](https://ia.net/writer/), [Ulysses](https://ulyssesapp.com/), [Marked](https://marked2app.com/), or [MacDown](https://macdown.uranusjr.com/)
 - **iOS / Android:** [iA Writer](https://ia.net/writer/) or [Ulysses](https://ulyssesapp.com/) (iOS only)
-- **Windows:** [MarkdownPad](https://markdownpad.com/) or [ghostwriter](https://wereturtle.github.io/ghostwriter/) ([GitHub project](https://github.com/wereturtle/ghostwriter))
+- **Windows:** [ghostwriter](https://wereturtle.github.io/ghostwriter/) or [Markdown Monster](https://markdownmonster.west-wind.com/)
+- **Linux:** [ReText](https://github.com/retext-project/retext) or [ghostwriter](https://wereturtle.github.io/ghostwriter/)
 - **Web:** [Dillinger](https://dillinger.io) or [StackEdit](https://stackedit.io/)
 
 T> Both [iA Writer](https://ia.net/writer/templates/) and [Ulysses](https://styles.ulyssesapp.com/) provide templates for previewing, printing, and exporting Markdown-formatted documents. For example, iA Writer's "Academic – MLA Style" template indents paragraphs and adds double sentence spacing.
@@ -36,7 +37,7 @@ T> Both [iA Writer](https://ia.net/writer/templates/) and [Ulysses](https://styl
 In nearly every way, Markdown is the ideal syntax for taking notes. Sadly, [Evernote](https://evernote.com/) and [OneNote](https://www.onenote.com/), two of the most popular note applications, don't currently support Markdown. The good news is that several other note applications *do* support Markdown:
 
 - [Simplenote](https://simplenote.com/) is a free, barebones note-taking application available for every platform.
-- [Notable](https://github.com/notable/notable) is an open-source note-taking application that runs on a variety of platforms.
+- [Notable](https://notable.md) is a note-taking application that runs on a variety of platforms.
 - [Bear](https://bear.app/) is an Evernote-like application available for Mac and iOS devices. It doesn't exclusively use Markdown syntax by default, but you can enable [Markdown compatibility mode](https://bear.app/faq/Markup%20:%20Markdown/Markdown%20compatibility%20mode/).
 - [Boostnote](https://boostnote.io/) bills itself as an "open source note-taking app designed for programmers."
 
