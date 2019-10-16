@@ -24,13 +24,13 @@ Markdown doesn't have all the bells and whistles of word processors like Microso
 
 Here are some Markdown document authoring applications we recommend:
 
-- **Mac:** [iA Writer](https://ia.net/writer/), [Ulysses](https://ulyssesapp.com/), [Marked](https://marked2app.com/), or [MacDown](https://macdown.uranusjr.com/)
-- **iOS / Android:** [iA Writer](https://ia.net/writer/) or [Ulysses](https://ulyssesapp.com/) (iOS only)
+- **Mac:** [iA Writer](https://ia.net/writer/), [Marked](https://marked2app.com/), or [MacDown](https://macdown.uranusjr.com/)
+- **iOS / Android:** [iA Writer](https://ia.net/writer/)
 - **Windows:** [ghostwriter](https://wereturtle.github.io/ghostwriter/) or [Markdown Monster](https://markdownmonster.west-wind.com/)
 - **Linux:** [ReText](https://github.com/retext-project/retext) or [ghostwriter](https://wereturtle.github.io/ghostwriter/)
 - **Web:** [Dillinger](https://dillinger.io) or [StackEdit](https://stackedit.io/)
 
-T> Both [iA Writer](https://ia.net/writer/templates/) and [Ulysses](https://styles.ulyssesapp.com/) provide templates for previewing, printing, and exporting Markdown-formatted documents. For example, iA Writer's "Academic – MLA Style" template indents paragraphs and adds double sentence spacing.
+T> [iA Writer](https://ia.net/writer/templates/) provides templates for previewing, printing, and exporting Markdown-formatted documents. For example, the "Academic – MLA Style" template indents paragraphs and adds double sentence spacing.
 
 ## Notes
 
