@@ -48,6 +48,16 @@ To summarize, this is a four-part process:
 
 From your perspective, the process will vary somewhat depending on the application you use. For example, Dillinger essentially combines steps 1-3 into a single, seamless interface — all you have to do is type in the left pane and the rendered output magically appears in the right pane. But if you use other tools, like a text editor with a static website generator, you'll find that the process is much more visible.
 
+## Flavors of Markdown
+
+One of the most confusing aspects of using Markdown is that practically every Markdown application implements a slightly different version of Markdown. These variants of Markdown are commonly referred to as *flavors*. It's your job to master whatever flavor of Markdown your application has implemented.
+
+To wrap your head around the concept of Markdown flavors, it might help to think of them as language dialects. People in Ciudad Juárez speak Spanish just like the people in Barcelona, but there are substantial differences between the dialects used in both cities. The same is true for people using different Markdown applications. Using [Dillinger](https://www.markdownguide.org/tools/dillinger/) to write with Markdown is a vastly different experience than using [Ulysses](https://www.markdownguide.org/tools/ulysses/).
+
+Practically speaking, this means you never know exactly what a company means when they say they support "Markdown." Are they talking about only the [basic syntax elements](#basic-syntax), or all of the basic and [extended syntax elements](#extended-syntax/) combined, or some arbitrary combination of syntax elements? You don't know until you read the documentation or start using the application.
+
+If you're just starting out, the best advice I can give you is to pick a Markdown application with good Markdown support. That'll go a long way towards maintaining the *portability* of your Markdown files. You might want to store and use your Markdown files in other applications, and to do that you need to start with an application that provides good support. You can use the [tool directory](https://www.markdownguide.org/tools/) to find an application that fits the bill.
+
 ## Additional Resources
 
 There are lots of other resources you can use to learn Markdown. Here are a few of my favorites:
