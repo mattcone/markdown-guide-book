@@ -732,24 +732,27 @@ The rendered output looks like this:
 
 ### Formatting Links
 
-To [emphasize](#emphasis) links, add asterisks before and after the brackets and parentheses.
+To [emphasize](#emphasis) links, add asterisks before and after the brackets and parentheses. To denote links as [code](#code), add backticks in the brackets.
 
 {title="Markdown"}
 ~~~~~~~
 I love supporting **[EFF](https://eff.org)**.
 This is the *[EFF](https://eff.org)*.
+See the section on [`code`](#code).
 ~~~~~~~
 
 {title="HTML", lang=html}
 ~~~~~~~
 <p>I love supporting <strong><a href="https://eff.org">EFF</a></strong>.
 This is the <em><a href="https://eff.org">EFF</a></em>.</p>
+See the section on <a href="#code"><code>code</code></a>.
 ~~~~~~~
 
 The rendered output looks like this:
 
 I love supporting **[EFF](https://eff.org)**.  
 This is the *[EFF](https://eff.org)*.
+See the section on [`code`](#code).
 
 ### Reference-style Links
 
