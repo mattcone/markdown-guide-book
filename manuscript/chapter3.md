@@ -580,7 +580,7 @@ The rendered output looks like this:
 
 ## Code {#code}
 
-To denote a word or phrase as code, enclose it in tick marks (`` ` ``).
+To denote a word or phrase as code, enclose it in backticks (`` ` ``).
 
 {title="Markdown"}
 ~~~~~~~
@@ -596,9 +596,9 @@ The rendered output looks like this:
 
 At the command prompt, type `nano`.
 
-### Escaping Tick Marks {#escaping-tick-marks}
+### Escaping Backticks {#escaping-backticks}
 
-If the word or phrase you want to denote as code includes one or more tick marks, you can escape it by enclosing the word or phrase in double tick marks (`` `` ``).
+If the word or phrase you want to denote as code includes one or more backticks, you can escape it by enclosing the word or phrase in double backticks (`` `` ``).
 
 {title="Markdown"}
 ~~~~~~~
@@ -858,7 +858,7 @@ You can use a backslash to escape the following characters.
 | Character         | Name                  |
 |-------------------|-----------------------|
 | `\`               | backslash             |
-| `` ` ``           | tick mark (see also [escaping tick marks in code](#escaping-tick-marks)) |
+| `` ` ``           | backtick (see also [escaping backticks in code](#escaping-backticks)) |
 | `*`               | asterisk              |
 | `_`               | underscore            |
 | `{}`              | curly braces          |

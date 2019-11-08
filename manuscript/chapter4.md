@@ -121,7 +121,7 @@ The rendered output looks like this:
 
 ### Formatting Text in Tables
 
-You can format the text within tables. For example, you can add [links](#links), [code](#code) (words or phrases in tick marks (`` ` ``) only, not [code blocks](#code-blocks)), and [emphasis](#emphasis).
+You can format the text within tables. For example, you can add [links](#links), [code](#code) (words or phrases in backticks (`` ` ``) only, not [code blocks](#code-blocks)), and [emphasis](#emphasis).
 
 You can’t add headings, blockquotes, lists, horizontal rules, images, or HTML tags.
 
@@ -131,7 +131,7 @@ You can display a pipe (`|`) character in a table by using its HTML character co
 
 ## Fenced Code Blocks {#fenced-code-blocks}
 
-The basic Markdown syntax allows you to create [code blocks](#code-blocks) by indenting lines by four spaces or one tab. If you find that inconvenient, try using fenced code blocks. Depending on your Markdown processor or editor, you’ll use three tick marks (```` ``` ````) or three tildes (`~~~`) on the lines before and after the code block. The best part? You don’t have to indent any lines!
+The basic Markdown syntax allows you to create [code blocks](#code-blocks) by indenting lines by four spaces or one tab. If you find that inconvenient, try using fenced code blocks. Depending on your Markdown processor or editor, you’ll use three backticks (```` ``` ````) or three tildes (`~~~`) on the lines before and after the code block. The best part? You don’t have to indent any lines!
 
 {title="Markdown"}
 ~~~~~~~
@@ -167,11 +167,11 @@ The rendered output looks like this:
 }
 ```
 
-T> Need to display tick marks inside a code block? See [this section](#escaping-tick-marks) to learn how to escape them.
+T> Need to display backticks inside a code block? See [this section](#escaping-backticks) to learn how to escape them.
 
 ### Syntax Highlighting
 
-Many Markdown processors support syntax highlighting for fenced code blocks. This feature allows you to add color highlighting for whatever language your code was written in. To add syntax highlighting, specify a language next to the tick marks before the fenced code block.
+Many Markdown processors support syntax highlighting for fenced code blocks. This feature allows you to add color highlighting for whatever language your code was written in. To add syntax highlighting, specify a language next to the backticks before the fenced code block.
 
 {title="Markdown"}
 ~~~~~~~
@@ -380,7 +380,7 @@ The rendered output looks like this:
 
 ### Disabling Automatic URL Linking
 
-If you don’t want a URL to be automatically linked, you can remove the link by [denoting the URL as code](#code) with tick marks.
+If you don’t want a URL to be automatically linked, you can remove the link by [denoting the URL as code](#code) with backticks.
 
 {title="Markdown"}
 ~~~~~~~
