@@ -16,10 +16,6 @@ The *Markdown Guide* has humble beginnings. It started as a single webpage in 20
 
 I hope you enjoy reading this book as much as I've enjoyed writing it. Above all, I hope it helps you write using Markdown, and I hope using Markdown makes you a better writer.
 
-## Where to Get This Book
-
-I want everyone to read the *Markdown Guide*. That's why it's [free to download](https://www.markdownguide.org/book) in PDF, MOBI, and EPUB format. I hope you share it with your friends and family. The vast majority of the book is also available online at <https://www.markdownguide.org>.
-
 ## How to Read This Book
 
 This book is designed to be a comprehensive reference guide to the Markdown markup language. If you're new to Markdown, start at the beginning and read to the end. If you're an expert user, keep this book handy — you never know when you'll need to refer back to the [cheat sheet](#cheat-sheet).
