@@ -727,7 +727,7 @@ Use [Duck Duck Go](https://duckduckgo.com).
 
 {title="HTML", lang=html}
 ~~~~~~~
-<p>Use <a href="https://duckduckgo.com">Duck Duck Go</a>.</p>
+Use <a href="https://duckduckgo.com">Duck Duck Go</a>.
 ~~~~~~~
 
 The rendered output looks like this:
@@ -745,7 +745,7 @@ Use [Duck Duck Go](https://duckduckgo.com "My search engine!").
 
 {title="HTML", lang=html}
 ~~~~~~~
-<p>Use <a href="https://duckduckgo.com" title="My search engine!">Duck Duck Go</a>.</p>
+Use <a href="https://duckduckgo.com" title="My search engine!">Duck Duck Go</a>.
 ~~~~~~~
 
 The rendered output looks like this:
@@ -786,8 +786,8 @@ See the section on [`code`](#code).
 
 {title="HTML", lang=html}
 ~~~~~~~
-<p>I love supporting <strong><a href="https://eff.org">EFF</a></strong>.
-This is the <em><a href="https://eff.org">EFF</a></em>.</p>
+I love supporting <strong><a href="https://eff.org">EFF</a></strong>.
+This is the <em><a href="https://eff.org">EFF</a></em>.
 See the section on <a href="#code"><code>code</code></a>.
 ~~~~~~~
 
@@ -890,7 +890,7 @@ To display a literal character that would otherwise be used to format text in a 
 
 {title="HTML", lang=html}
 ~~~~~~~
-<p>* Without the backslash, this would be a bullet in an unordered list.</p>
+* Without the backslash, this would be a bullet in an unordered list.
 ~~~~~~~
 
 The rendered output looks like this:
