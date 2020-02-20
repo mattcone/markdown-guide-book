@@ -27,10 +27,21 @@ Alternatively, on the line below the text, add any number of `==` characters for
 | `Heading level 2`              | `<h2>Heading level 2</h2>`             |
 | `---------------`              |                                        |
 
+### Heading Best Practices
+
+Markdown applications don't agree on how to handle missing blank lines between a heading and the surrounding paragraphs. For compatibility, separate paragraphs and headings with one or more blank lines.
+
+| Do this                         | Don't do this                         |
+|---------------------------------|---------------------------------------|
+| `This is a paragraph.`          | `This is a paragraph.`                |
+|                                 | `# Here's the heading`                |
+| `# Here's the heading`          | `And this is another paragraph.`      |
+|                                 |                                       |
+| `And this is another paragraph.` |                                      |
 
 ## Paragraphs
 
-To create paragraphs, use a blank line to separate one or more lines of text. You should not indent paragraphs with spaces or tabs.
+To create paragraphs, use a blank line to separate one or more lines of text.
 
 {title="Markdown"}
 ~~~~~~~
@@ -52,6 +63,16 @@ I really like using Markdown.
 
 I think I'll use it from now on.
 
+### Paragraph Best Practices
+
+Don't indent paragraphs with spaces or tabs.
+
+| Do this                         | Don't do this                         |
+|---------------------------------|---------------------------------------|
+| `Don't put tabs or spaces in front of your paragraphs.` | &nbsp;&nbsp;&nbsp;&nbsp;`This can result in unexpected formatting problems.` |
+|                                 |                                       |
+| `Keep lines left-aligned like this.` | &nbsp;&nbsp;`Don't add tabs or spaces in front of paragraphs.` |
+
 ## Line Breaks
 
 To create a line break (`<br>`), end a line with two or more spaces, and then type return.
@@ -72,6 +93,22 @@ The rendered output looks like this:
 
 This is the first line.  
 And this is the second line.
+
+### Line Break Best Practices
+
+You can use two or more spaces (referred to as "trailing whitespace") for line breaks in nearly every Markdown application, but it's controversial. It's hard to see trailing whitespace in an editor, and many people accidentally or intentionally put two spaces after every sentence. For this reason, you may want to use something other than trailing whitespace for line breaks. Fortunately, there is another option supported by nearly every Markdown application: the `<br>` HTML tag.
+
+For compatibility, use trailing white space or the `<br>` HTML tag at the end of the line.
+
+There are two other options I don't recommend using. CommonMark and a few other lightweight markup languages let you type a backslash (`\`) at the end of the line, but not all Markdown applications support this, so it isn't a great option from a compatibility perspective. And at least a couple lightweight markup languages don't require anything at the end of the line — just type return and they'll create a line break.
+
+| Do this                         | Don't do this                         |
+|---------------------------------|---------------------------------------|
+| `First line with two spaces after.` | `First line with a backslash after.\` |
+| `And the next line.`            | `And the next line.`                  |
+|                                 |                                       |
+| `With the HTML tag after.<br>`  | `With nothing after.`                 |
+| `And the next line.`            | `And the next line.`                  |
 
 ## Emphasis {#emphasis}
 
@@ -104,6 +141,14 @@ The rendered output looks like this:
 I love **bold text**.
 
 Love**is**bold
+
+#### Bold Best Practices
+
+Markdown applications don't agree on how to handle underscores in the middle of a word. For compatibility, use asterisks to bold the middle of a word for emphasis.
+
+| Do this | Don't do this |
+|------------|-------------------|
+| `Love**is**bold` | `Love__is__bold` |
 
 ### Italic {#italic}
 
@@ -892,7 +937,7 @@ The rendered output looks like this:
 
 This **word** is bold. This *word* is italic.
 
-### Limitations
+### HTML Best Practices
 
 For security reasons, not all Markdown applications support HTML in Markdown documents. When in doubt, check your Markdown application's documentation. Some applications support only a subset of HTML tags.
 
