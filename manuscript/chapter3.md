@@ -178,6 +178,14 @@ The *cat's meow*.
 
 A*cat*meow
 
+#### Italic Best Practices
+
+Markdown applications don’t agree on how to handle underscores in the middle of a word. For compatibility, use asterisks to italicize the middle of a word for emphasis.
+
+| Do this | Don't do this |
+|------------|-------------------|
+| `A*cat*meow` | `A_cat_meow` |
+
 ### Bold and Italic
 
 To emphasize text with bold and italics at the same time, add three asterisks or underscores before and after a word or phrase.
