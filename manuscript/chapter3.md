@@ -738,6 +738,18 @@ The rendered output of all three looks identical:
 
 ***
 
+### Horizontal Rule Best Practices
+
+For compatibility, put blank lines before and after horizontal rules.
+
+| Do this | Don't do this |
+|------------|-------------------|
+| Try to put a blank line before... | Without blank lines, this would be a heading. |
+|                                   | ---          |
+| ---                               | Don't do this! |
+|                                   |                |
+| ...and after a horizontal rule.   |                |
+
 ## Links {#links}
 
 To create a link, enclose the link text in brackets (e.g., `[Duck Duck Go]`) and then follow it immediately with the URL in parentheses (e.g., `(https://duckduckgo.com)`).
