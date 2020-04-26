@@ -188,7 +188,7 @@ Markdown applications don’t agree on how to handle underscores in the middle o
 
 ### Bold and Italic
 
-To emphasize text with bold and italics at the same time, add three asterisks or underscores before and after a word or phrase.
+To emphasize text with bold and italics at the same time, add three asterisks or underscores before and after a word or phrase. To bold and italicize the middle of a word for emphasis, add three asterisks without spaces around the letters.
 
 {title="Markdown"}
 ~~~~~~~
@@ -199,18 +199,32 @@ ___Important___ text.
 __*Important*__ text.
 
 **_Important_** text.
+
+Really***very***important text.
 ~~~~~~~
 
-The HTML output of all four examples is the same.
+The HTML output of the first four examples is the same.
 
 {title="HTML", lang=html}
 ~~~~~~~
 <strong><em>Important</em></strong> text.
+
+Really<strong><em>very</em></strong>important text.
 ~~~~~~~
 
 The rendered output looks like this:
 
 ***Important*** text.
+
+Really***very***important text.
+
+#### Bold and Italic Best Practices
+
+Markdown applications don’t agree on how to handle underscores in the middle of a word. For compatibility, use asterisks to bold and italicize the middle of a word for emphasis.
+
+| Do this | Don't do this |
+|------------|-------------------|
+| `Really***very***important text. ` | `Really___very___important text.` |
 
 ## Blockquotes {#blockquotes}
 
