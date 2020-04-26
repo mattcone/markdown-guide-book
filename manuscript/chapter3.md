@@ -895,6 +895,14 @@ The output is also identical:
 
 In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a [hobbit-hole](https://en.wikipedia.org/wiki/Hobbit#Lifestyle), and that means comfort.
 
+### Link Best Practices
+
+Markdown applications don’t agree on how to handle spaces in the middle of a URL. For compatibility, try to URL encode any spaces with `%20`.
+
+| Do this | Don't do this |
+|------------|-------------------|
+| `[link](https://www.example.com/my%20great%20page)` | `[link](https://www.example.com/my great page)` |
+
 ## Images {#images}
 
 To add an image, add an exclamation mark (`!`), followed by alt text in brackets, and the path or URL to the image asset in parentheses. You can optionally add a title after the URL in the parentheses.
