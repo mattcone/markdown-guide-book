@@ -742,13 +742,25 @@ The rendered output of all three looks identical:
 
 For compatibility, put blank lines before and after horizontal rules.
 
-| Do this | Don't do this |
-|------------|-------------------|
-| Try to put a blank line before... | Without blank lines, this would be a heading. |
-|                                   | ---          |
-| ---                               | Don't do this! |
-|                                   |                |
-| ...and after a horizontal rule.   |                |
+Do this:
+
+{title="Markdown"}
+~~~~~~~
+Try to put a blank line before...
+
+---
+
+...and after a horizontal rule.
+~~~~~~~
+
+Don't do this:
+
+{title="Markdown"}
+~~~~~~~
+Without blank lines, this would be a heading.
+---
+Don't do this!
+~~~~~~~
 
 ## Links {#links}
 
@@ -899,9 +911,19 @@ In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, fill
 
 Markdown applications don’t agree on how to handle spaces in the middle of a URL. For compatibility, try to URL encode any spaces with `%20`.
 
-| Do this | Don't do this |
-|------------|-------------------|
-| `[link](https://www.example.com/my%20great%20page)` | `[link](https://www.example.com/my great page)` |
+Do this:
+
+{title="Markdown"}
+~~~~~~~
+[link](https://www.example.com/my%20great%20page)
+~~~~~~~
+
+Don't do this:
+
+{title="Markdown"}
+~~~~~~~
+[link](https://www.example.com/my great page)
+~~~~~~~
 
 ## Images {#images}
 
