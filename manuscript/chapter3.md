@@ -29,15 +29,11 @@ Alternatively, on the line below the text, add any number of `==` characters for
 
 ### Heading Best Practices
 
-Markdown applications don't agree on how to handle missing blank lines between a heading and the surrounding paragraphs. For compatibility, separate paragraphs and headings with one or more blank lines.
+Markdown applications don't agree on how to handle a missing space between the number signs (`#`) and the heading name. For compatibility, always put a space between the number signs and the heading name.
 
 | Do this                         | Don't do this                         |
 |---------------------------------|---------------------------------------|
-| `This is a paragraph.`          | `This is a paragraph.`                |
-|                                 | `# Here's the heading`                |
-| `# Here's the heading`          | `And this is another paragraph.`      |
-|                                 |                                       |
-| `And this is another paragraph.` |                                      |
+| `# Here's a Heading`            | `#Here's a Heading`                   |
 
 ## Paragraphs
 
@@ -96,7 +92,7 @@ And this is the second line.
 
 ### Line Break Best Practices
 
-You can use two or more spaces (referred to as "trailing whitespace") for line breaks in nearly every Markdown application, but it's controversial. It's hard to see trailing whitespace in an editor, and many people accidentally or intentionally put two spaces after every sentence. For this reason, you may want to use something other than trailing whitespace for line breaks. Fortunately, there is another option supported by nearly every Markdown application: the `<br>` HTML tag.
+You can use two or more spaces (commonly referred to as "trailing whitespace") for line breaks in nearly every Markdown application, but it's controversial. It's hard to see trailing whitespace in an editor, and many people accidentally or intentionally put two spaces after every sentence. For this reason, you may want to use something other than trailing whitespace for line breaks. Fortunately, there is another option supported by nearly every Markdown application: the `<br>` HTML tag.
 
 For compatibility, use trailing white space or the `<br>` HTML tag at the end of the line.
 
