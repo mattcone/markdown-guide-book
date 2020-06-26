@@ -358,6 +358,7 @@ Task lists allow you to create a list of items with checkboxes. In Markdown appl
 
 The rendered output looks like this:
 
+{width=40%}
 ![Task list](images/tasklist.png)
 
 ## Automatic URL Linking
