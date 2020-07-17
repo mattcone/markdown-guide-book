@@ -360,6 +360,29 @@ The rendered output looks like this:
 
 ![Task list](images/tasklist.png)
 
+## Emoji
+
+There are two ways to add emoji to Markdown files: copy and paste the emoji into your Markdown-formatted text, or type *emoji shortcodes*.
+
+### Copying and Pasting Emoji
+
+In most cases, you can simply copy an emoji from a source like [Emojipedia](https://emojipedia.org/) and paste it into your document. Many Markdown applications will automatically display the emoji in the Markdown-formatted text. The HTML and PDF files you export from your Markdown application should display the emoji.
+
+T> If you're using a static site generator, make sure you [encode HTML pages as UTF-8](https://www.w3.org/International/tutorials/tutorial-char-enc/).
+
+### Using Emoji Shortcodes
+
+Some Markdown applications allow you to insert emoji by typing emoji shortcodes. These begin and end with a colon and include the name of an emoji.
+
+{title="Markdown"}
+~~~~~~~
+Gone camping! :tent: Be back soon.
+
+That is so funny! :joy:
+~~~~~~~
+
+I> You can use this [list of emoji shortcodes](https://gist.github.com/rxaviers/7360908), but keep in mind that emoji shortcodes vary from application to application. Refer to your Markdown application's documentation for more information.
+
 ## Automatic URL Linking
 
 Many Markdown processors automatically turn URLs into links. That means if you type http://www.example.com, your Markdown processor will automatically turn it into a link even though you haven’t [used brackets](#links).
