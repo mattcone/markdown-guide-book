@@ -939,6 +939,20 @@ The rendered output looks like this:
 
 ![Philadelphia's Magic Gardens. This place was so cool!](images/philly-magic-garden.png "Philadelphia's Magic Gardens")
 
+### Linking Images
+
+To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.
+
+{title="Markdown"}
+~~~~~~~
+[![An old rock in the desert](images/shiprock.jpg)](https://en.wikipedia.org/wiki/Shiprock)
+~~~~~~~
+
+{title="HTML", lang=html}
+~~~~~~~
+<a href="https://en.wikipedia.org/wiki/Shiprock"><img src="images/shiprock.jpg" alt="An old rock in the desert"></a>
+~~~~~~~
+
 ## Escaping Characters
 
 To display a literal character that would otherwise be used to format text in a Markdown document, add a backslash (`\`) in front of the character.
