@@ -61,7 +61,7 @@ I think I'll use it from now on.
 
 ### Paragraph Best Practices
 
-Don't indent paragraphs with spaces or tabs.
+Unless the paragraph is in a list, don't indent paragraphs with spaces or tabs.
 
 | Do this                         | Don't do this                         |
 |---------------------------------|---------------------------------------|
