@@ -22,7 +22,7 @@ If you'd like to use a content management system (CMS) to power your website, ta
 
 Markdown doesn't have all the bells and whistles of word processors like Microsoft Word, but it's good enough for creating basic documents like assignments and letters. You can use a Markdown document authoring application to create and export Markdown-formatted documents to PDF or HTML file format. The PDF part is key, because once you have a PDF document, you can do anything with it — print it, email it, or upload it to a website.
 
-Here are some Markdown document authoring applications we recommend:
+Here are some Markdown document authoring applications I recommend:
 
 - **Mac:** [MacDown](https://macdown.uranusjr.com/), [iA Writer](https://ia.net/writer/), or [Marked](https://marked2app.com/)
 - **iOS / Android:** [iA Writer](https://ia.net/writer/)
