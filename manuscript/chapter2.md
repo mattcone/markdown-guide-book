@@ -39,7 +39,7 @@ In nearly every way, Markdown is the ideal syntax for taking notes. Sadly, [Ever
 - [Simplenote](https://simplenote.com/) is a free, barebones note-taking application available for every platform.
 - [Notable](https://notable.md) is a note-taking application that runs on a variety of platforms.
 - [Bear](https://bear.app/) is an Evernote-like application available for Mac and iOS devices. It doesn't exclusively use Markdown syntax by default, but you can enable [Markdown compatibility mode](https://bear.app/faq/Markup%20:%20Markdown/Markdown%20compatibility%20mode/).
-- [Joplin](/tools/joplin/) is a note taking application that respects your privacy. It's available for every platform.
+- [Joplin](https://joplinapp.org/) is a note taking application that respects your privacy. It's available for every platform.
 - [Boostnote](https://boostnote.io/) bills itself as an "open source note-taking app designed for programmers."
 
 If you can't part with Evernote, check out [Marxico](https://marxi.co/), a subscription-based Markdown editor for Evernote, or use [Markdown Here](https://markdown-here.com/features.html#not-just-email) with the Evernote website.
