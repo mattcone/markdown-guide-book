@@ -35,6 +35,16 @@ Markdown applications don't agree on how to handle a missing space between the n
 |---------------------------------|---------------------------------------|
 | `# Here's a Heading`            | `#Here's a Heading`                   |
 
+You should also put blank lines before and after a heading for compatibility.
+
+| Do this                             | Don't do this                                     |
+|-------------------------------------|---------------------------------------------------|
+| `Try to put a blank line before...` | `Without blank lines, this might not look right.` |
+|                                     | `# Heading`                                       |
+| `# Heading`                         | `Don't do this!`                                  |
+|                                     |                                                   |
+| `...and after a heading.`           |                                                   |
+
 ## Paragraphs
 
 To create paragraphs, use a blank line to separate one or more lines of text.
