@@ -429,8 +429,8 @@ To create an unordered list, add dashes (`-`), asterisks (`*`), or plus signs (`
 * Fourth item
 
 + First item
-* Second item
-- Third item
++ Second item
++ Third item
 + Fourth item
 ~~~~~~~
 
@@ -490,6 +490,17 @@ The rendered output looks like this:
     - Indented item
     - Indented item
 - Fourth item
+
+#### Unordered List Best Practices
+
+Markdown applications don’t agree on how to handle different delimiters in the same list. For compatibility, don’t mix and match delimiters in the same list — pick one and stick with it.
+
+| Do this             | Don't do this    |
+|---------------------|------------------|
+| - First item        | + First item     |
+| - Second item       | * Second item    |
+| - Third item        | - Third item     |
+| - Fourth item       | + Fourth item    |
 
 ### Adding Elements in Lists
 
