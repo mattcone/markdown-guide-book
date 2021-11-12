@@ -1,6 +1,6 @@
 ![Markdown Guide book cover](cover.png)
 
-This is the source repository for the *Markdown Guide* book. You can purchase the book on [Gumroad](https://gum.co/markdownguide), [LeanPub](https://leanpub.com/themarkdownguide), or [Amazon](https://www.amazon.com/dp/B07G7JB641).
+This is the source repository for *The Markdown Guide* book. You can purchase the book on [Gumroad](https://gum.co/markdownguide), [LeanPub](https://leanpub.com/themarkdownguide), or [Amazon](https://www.amazon.com/dp/B07G7JB641).
 
 ## Contributing
 
