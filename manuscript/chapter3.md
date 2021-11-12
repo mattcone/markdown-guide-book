@@ -102,7 +102,7 @@ And this is the second line.
 
 ### Line Break Best Practices
 
-You can use two or more spaces (commonly referred to as "trailing whitespace") for line breaks in nearly every Markdown application, but it's controversial. It's hard to see trailing whitespace in an editor, and many people accidentally or intentionally put two spaces after every sentence. For this reason, you may want to use something other than trailing whitespace for line breaks. Fortunately, there is another option supported by nearly every Markdown application: the `<br>` HTML tag.
+You can use two or more spaces (commonly referred to as "trailing whitespace") for line breaks in nearly every Markdown application, but it's controversial. It's hard to see trailing whitespace in an editor, and many people accidentally or intentionally put two spaces after every sentence. For this reason, you may want to use something other than trailing whitespace for line breaks. If your Markdown application [supports HTML](#html), you can use the `<br>` HTML tag.
 
 For compatibility, use trailing white space or the `<br>` HTML tag at the end of the line.
 
@@ -1097,7 +1097,7 @@ You can use a backslash to escape the following characters.
 | `!`               | exclamation mark      |
 | `|`               | pipe (see also [escaping pipe in tables](#escaping-pipe-characters-in-tables)) |
 
-## HTML
+## HTML {#html}
 
 Many Markdown applications allow you to use HTML tags in Markdown-formatted text. This is helpful if you prefer certain HTML tags to Markdown syntax. For example, some people find it easier to use HTML tags for images. Using HTML is also helpful when you need to change the attributes of an element, like specifying the color of text or changing the width of an image.
 
