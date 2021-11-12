@@ -764,7 +764,7 @@ At the command prompt, type `nano`.
 
 ### Escaping Backticks {#escaping-backticks}
 
-If the word or phrase you want to denote as code includes one or more backticks, you can escape it by enclosing the word or phrase in double backticks (`` `` ``).
+If the word or phrase you want to denote as code includes one or more backticks, you can escape it by enclosing the word or phrase in double backticks.
 
 {title="Markdown"}
 ~~~~~~~
