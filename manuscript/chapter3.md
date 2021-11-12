@@ -1041,6 +1041,7 @@ You can use a backslash to escape the following characters.
 | `_`               | underscore            |
 | `{}`              | curly braces          |
 | `[]`              | brackets              |
+| `<>`              | angle brackets        |
 | `()`              | parentheses           |
 | `#`               | pound sign            |
 | `+`               | plus sign             |
