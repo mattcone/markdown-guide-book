@@ -1034,17 +1034,17 @@ To add an image, add an exclamation mark (`!`), followed by alt text in brackets
 
 {title="Markdown"}
 ~~~~~~~
-![Philadelphia's Magic Gardens. This place was so cool!](images/philly-magic-garden.png "Philadelphia's Magic Gardens")
+![The San Juan Mountains are beautiful!](images/san-juan-mountains.jpg "San Juan Mountains")
 ~~~~~~~
 
 {title="HTML", lang=html}
 ~~~~~~~
-<img src="images/philly-magic-garden.png" alt="Philadelphia's Magic Gardens. This place was so cool!" title="Philadelphia's Magic Gardens" />
+<img src="images/san-juan-mountains.jpg" alt="The San Juan Mountains are beautiful!" title="San Juan Mountains" />
 ~~~~~~~
 
 The rendered output looks like this:
 
-![Philadelphia's Magic Gardens. This place was so cool!](images/philly-magic-garden.png "Philadelphia's Magic Gardens")
+![The San Juan Mountains are beautiful!](images/san-juan-mountains.jpg "San Juan Mountains")
 
 ### Linking Images
 
