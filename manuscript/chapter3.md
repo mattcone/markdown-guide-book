@@ -329,6 +329,18 @@ The rendered output looks like this:
 >
 >  *Everything* is going **well**.
 
+### Blockquotes Best Practices
+
+For compatibility, put blank lines before and after blockquotes.
+
+| Do this                                | Don't do this                                      |
+|----------------------------------------|----------------------------------------------------|
+| Try to put a blank line before...      | Without blank lines, this might not look right.    |
+|                                        | > This is a blockquote                             |
+| > This is a blockquote                 | Don't do this!                                     |
+|                                        |                                                    |
+| ...and after a blockquote.             |                                                    |
+
 ## Lists
 
 You can organize items into ordered and unordered lists.
