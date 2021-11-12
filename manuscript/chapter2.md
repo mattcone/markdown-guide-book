@@ -58,7 +58,7 @@ If you send a lot of email and you're tired of the formatting controls available
 
 ## Collaboration
 
-Collaboration and team messaging applications are a popular way of communicating with coworkers and friends at work and home. These applications don't utilize all of Markdown's features, but the features they do provide are fairly useful. For example, the ability to bold and italicize text without using the WYSIWYG interface is pretty handy. [Slack](https://slack.com), [Discord](https://discord.com), and [Mattermost](https://mattermost.com) are all good collaboration applications.
+Collaboration and team messaging applications are a popular way of communicating with coworkers and friends at work and home. These applications don't utilize all of Markdown's features, but the features they do provide are fairly useful. For example, the ability to bold and italicize text without using the WYSIWYG interface is pretty handy. [Slack](https://slack.com), [Discord](https://discord.com), [Wiki.js](https://js.wiki), and [Mattermost](https://mattermost.com) are all good collaboration applications.
 
 ## Documentation
 
