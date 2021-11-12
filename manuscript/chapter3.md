@@ -500,6 +500,29 @@ The rendered output looks like this:
     - Indented item
 - Fourth item
 
+#### Starting Unordered List Items With Numbers
+
+If you need to start an unordered list item with a number followed by a period, you can use a backslash (`\`) to [escape](#escaping-characters) the period.
+
+{title="Markdown"}
+~~~~~~~
+- 1968\. A great year!
+- I think 1969 was second best. 
+~~~~~~~
+
+{title="HTML", lang=html}
+~~~~~~~
+<ul>
+  <li>1968. A great year!</li>
+  <li>I think 1969 was second best.</li>
+</ul> 
+~~~~~~~
+
+The rendered output looks like this:
+
+- 1968\. A great year!
+- I think 1969 was second best.
+
 #### Unordered List Best Practices
 
 Markdown applications don't agree on how to handle different delimiters in the same list. For compatibility, don't mix and match delimiters in the same list — pick one and stick with it.
@@ -1011,7 +1034,7 @@ To add a link to an image, enclose the Markdown for the image in brackets, and t
 <a href="https://en.wikipedia.org/wiki/Shiprock"><img src="images/shiprock.jpg" alt="An old rock in the desert"></a>
 ~~~~~~~
 
-## Escaping Characters
+## Escaping Characters {#escaping-characters}
 
 To display a literal character that would otherwise be used to format text in a Markdown document, add a backslash (`\`) in front of the character.
 
