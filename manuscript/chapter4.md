@@ -277,7 +277,7 @@ Many Markdown processors support custom IDs for [headings](#headings) — some M
 <h3 id="custom-id">My Great Heading</h3>
 ~~~~~~~
 
-### Linking to Heading IDs
+### Linking to Heading IDs {#linking-to-heading-ids}
 
 You can link to headings with custom IDs in the file by creating a [standard link](#links) with a number sign (`#`) followed by the custom heading ID.
 

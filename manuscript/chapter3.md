@@ -879,6 +879,8 @@ The rendered output looks like this:
 
 Use [Duck Duck Go](https://duckduckgo.com).
 
+I> To link to an element on the same page, see [linking to heading IDs](#linking-to-heading-ids).
+
 ### Adding Titles
 
 You can optionally add a title for a link. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in parentheses after the URL.
