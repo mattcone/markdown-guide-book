@@ -560,16 +560,18 @@ Markdown applications don't agree on how to handle different delimiters in the s
 
 To add another element in a list while preserving the continuity of the list, indent the element four spaces or one tab, as shown in the following examples.
 
+T> If things don't appear the way you expect, double check that you've indented the elements in the list four spaces or one tab.
+
 #### Paragraphs
 
 {title="Markdown"}
 ~~~~~~~
-*   This is the first list item.
-*   Here's the second list item.
+* This is the first list item.
+* Here's the second list item.
 
     I need to add another paragraph below the second list item.
 
-*   And here's the third list item.
+* And here's the third list item.
 ~~~~~~~
 
 {title="HTML", lang=html}
@@ -585,23 +587,23 @@ To add another element in a list while preserving the continuity of the list, in
 
 The rendered output looks like this:
 
-*   This is the first list item.
-*   Here's the second list item.
+* This is the first list item.
+* Here's the second list item.
 
     I need to add another paragraph below the second list item.
 
-*   And here's the third list item.
+* And here's the third list item.
 
 #### Blockquotes
 
 {title="Markdown"}
 ~~~~~~~
-*   This is the first list item.
-*   Here's the second list item.
+* This is the first list item.
+* Here's the second list item.
 
     > A blockquote would look great here.
 
-*   And here's the third list item.
+* And here's the third list item.
 ~~~~~~~
 
 {title="HTML", lang=html}
@@ -620,12 +622,12 @@ The rendered output looks like this:
 
 The rendered output looks like this:
 
-*   This is the first list item.
-*   Here's the second list item.
+* This is the first list item.
+* Here's the second list item.
 
     > A blockquote would look great here.
 
-*   And here's the third list item.
+* And here's the third list item.
 
 #### Code Blocks
 
@@ -633,15 +635,15 @@ The rendered output looks like this:
 
 {title="Markdown"}
 ~~~~~~~
-1.  Open the file.
-2.  Find the following code block on line 21:
+1. Open the file.
+2. Find the following code block on line 21:
 
         <html>
           <head>
             <title>Test</title>
           </head>
 
-3.  Update the title to match the name of your website.
+3. Update the title to match the name of your website.
 ~~~~~~~
 
 {title="HTML", lang=html}
@@ -661,26 +663,26 @@ The rendered output looks like this:
 
 The rendered output looks like this:
 
-1.  Open the file.
-2.  Find the following code block on line 21:
+1. Open the file.
+2. Find the following code block on line 21:
 
         <html>
           <head>
             <title>Test</title>
           </head>
 
-3.  Update the title to match the name of your website.
+3. Update the title to match the name of your website.
 
 #### Images
 
 {title="Markdown"}
 ~~~~~~~
-1.  Open the file containing Tux, the Linux mascot.
-2.  Marvel at its beauty.
+1. Open the file containing Tux, the Linux mascot.
+2. Marvel at its beauty.
 
     ![Tux](images/tux.png)
 
-3.  Close the file.
+3. Close the file.
 ~~~~~~~
 
 {title="HTML", lang=html}
@@ -697,12 +699,12 @@ The rendered output looks like this:
 
 The rendered output looks like this:
 
-1.  Open the file containing Tux, the Linux mascot.
-2.  Marvel at its beauty.
+1. Open the file containing Tux, the Linux mascot.
+2. Marvel at its beauty.
 
     ![Tux](images/tux.png)
 
-3.  Close the file.
+3. Close the file.
 
 #### Lists
 
