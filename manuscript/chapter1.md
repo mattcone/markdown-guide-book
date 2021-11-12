@@ -50,7 +50,7 @@ Markdown applications use something called a *Markdown processor* (also commonly
 
 I> The Markdown application and processor are two separate components. For the sake of brevity, I've combined them into one element ("Markdown App") in the figure below.
 
-{width=70%}
+{width=100%}
 ![This is a visual overview of the Markdown process.](images/process.png)
 
 To summarize, this is a four-part process:
