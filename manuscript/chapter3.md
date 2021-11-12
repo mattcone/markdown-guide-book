@@ -412,6 +412,15 @@ The rendered output looks like this:
     2. Indented item
 4. Fourth item
 
+#### Ordered List Best Practices
+
+CommonMark and a few other lightweight markup languages let you use a parenthesis (`)`) as a delimiter (e.g., `1) First item`), but not all Markdown applications support this, so it isn't a great option from a compatibility perspective. For compatibility, use periods only.
+
+| Do this             | Don't do this    |
+|---------------------|------------------|
+| 1. First item       | 1) First item    |
+| 2. Second item      | 2) Second item   |
+
 ### Unordered Lists {#unordered-lists}
 
 To create an unordered list, add dashes (`-`), asterisks (`*`), or plus signs (`+`) in front of line items.
@@ -493,7 +502,7 @@ The rendered output looks like this:
 
 #### Unordered List Best Practices
 
-Markdown applications don’t agree on how to handle different delimiters in the same list. For compatibility, don’t mix and match delimiters in the same list — pick one and stick with it.
+Markdown applications don't agree on how to handle different delimiters in the same list. For compatibility, don't mix and match delimiters in the same list — pick one and stick with it.
 
 | Do this             | Don't do this    |
 |---------------------|------------------|
