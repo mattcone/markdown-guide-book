@@ -639,6 +639,44 @@ The rendered output looks like this:
 
 3.  Close the file.
 
+#### Lists
+
+You can nest an unordered list in an ordered list, or vice versa.
+
+{title="Markdown"}
+~~~~~~~
+1. First item
+2. Second item
+3. Third item
+    - Indented item
+    - Indented item
+4. Fourth item
+~~~~~~~
+
+{title="HTML", lang=html}
+~~~~~~~
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item
+    <ul>
+      <li>Indented item</li>
+      <li>Indented item</li>
+    </ul>
+  </li>
+  <li>Fourth item</li>
+</ol>
+~~~~~~~
+
+The rendered output looks like this:
+
+1. First item
+2. Second item
+3. Third item
+    - Indented item
+    - Indented item
+4. Fourth item
+
 ## Code {#code}
 
 To denote a word or phrase as code, enclose it in backticks (`` ` ``).
