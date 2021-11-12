@@ -24,7 +24,7 @@ There are [dozens of Markdown processors](https://github.com/markdown/markdown.g
 
 ## Tables {#tables}
 
-To add a table, use three or more hyphens (`---`) to create each column’s header, and use pipes (`|`) to separate each column. You can optionally add pipes on either end of the table.
+To add a table, use three or more hyphens (`---`) to create each column's header, and use pipes (`|`) to separate each column. For compatibility, you should also add a pipe on either end of the row.
 
 {title="Markdown"}
 ~~~~~~~
