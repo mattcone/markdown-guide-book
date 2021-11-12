@@ -345,11 +345,11 @@ For compatibility, put blank lines before and after blockquotes.
 
 | Do this                                | Don't do this                                      |
 |----------------------------------------|----------------------------------------------------|
-| Try to put a blank line before...      | Without blank lines, this might not look right.    |
-|                                        | > This is a blockquote                             |
-| > This is a blockquote                 | Don't do this!                                     |
+| `Try to put a blank line before...`    | `Without blank lines, this might not look right.`  |
+|                                        | `> This is a blockquote`                           |
+| `> This is a blockquote`               | `Don't do this!`                                   |
 |                                        |                                                    |
-| ...and after a blockquote.             |                                                    |
+| `...and after a blockquote.`           |                                                    |
 
 ## Lists
 
@@ -440,8 +440,8 @@ CommonMark and a few other lightweight markup languages let you use a parenthesi
 
 | Do this             | Don't do this    |
 |---------------------|------------------|
-| 1. First item       | 1) First item    |
-| 2. Second item      | 2) Second item   |
+| `1. First item`     | `1) First item`  |
+| `2. Second item`    | `2) Second item` |
 
 ### Unordered Lists {#unordered-lists}
 
@@ -551,10 +551,10 @@ Markdown applications don't agree on how to handle different delimiters in the s
 
 | Do this             | Don't do this    |
 |---------------------|------------------|
-| - First item        | + First item     |
-| - Second item       | * Second item    |
-| - Third item        | - Third item     |
-| - Fourth item       | + Fourth item    |
+| `- First item`      | `+ First item`   |
+| `- Second item`     | `* Second item`  |
+| `- Third item`      | `- Third item`   |
+| `- Fourth item`     | `+ Fourth item`  |
 
 ### Adding Elements in Lists
 
