@@ -1,3 +1,5 @@
+{frontmatter}
+
 # Introduction
 
 I'm a technical writer, and I've used a lot of writing tools over the course of my professional career. One of the most interesting tools I've encountered is a markup language called Markdown.
