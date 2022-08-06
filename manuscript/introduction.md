@@ -6,7 +6,7 @@ I'm a technical writer, and I've used a lot of writing tools over the course of 
 
 My litmus test for a successful writing tool is whether using it can become second nature. Does writing with it feel natural? Or do I feel like I'm constantly fighting against it? I stop using tools that hinder me. Time is valuable, and I don't have the luxury of indulging things that squander that precious resource.
 
-Markdown passes the test with flying colors. Writing using Markdown just *feels right*. Since its introduction in 2004, millions of people have starting using it to write everything from notes to documents. It's one of the most successful markup languages of all time.
+Markdown passes the test with flying colors. Writing using Markdown just *feels right*. Since its introduction in 2004, millions of people have started using it to write everything from notes to documents. It's one of the most successful markup languages of all time.
 
 Markdown has succeeded where other markup languages have failed because it strikes the right balance between power and simplicity. It's easy to learn and simple to use. Its tremendous success means it's ubiquitous enough to replace WYSIWYG editors on websites like Reddit and GitHub. But Markdown is also powerful enough to create documents, books, and technical documentation. Markdown is literally everywhere.  
 
