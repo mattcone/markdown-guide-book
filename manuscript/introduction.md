@@ -26,7 +26,7 @@ This book is designed to be a comprehensive reference guide to the Markdown mark
 
 The first two chapters of this book are designed exclusively for readers who are new to Markdown. [Getting Started](#getting-started) provides a quick introduction to Markdown. It shows you how to get going quickly with the Dillinger online Markdown editor, and it sheds light on some of the stuff going on behind the scenes.
 
-[Doing Things With Markdown](#doing-things-with-markdown) talks about what you can create using Markdown. It also presents some the applications you can use to write using Markdown.
+[Doing Things With Markdown](#doing-things-with-markdown) talks about what you can create using Markdown. It also presents some of the applications you can use to write Markdown.
 
 ### Syntax Examples
 
