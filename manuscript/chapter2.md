@@ -16,7 +16,7 @@ If you're familiar with HTML, CSS, and version control, check out [Jekyll](https
 
 I> I used Jekyll to create the [Markdown Guide](https://www.markdownguide.org) website. You can view the source code on [GitHub](https://github.com/mattcone/markdown-guide).
 
-If you'd like to use a content management system (CMS) to power your website, take a look at [Ghost](https://ghost.org/). It's a free and open-source blogging platform with a nice Markdown editor. If you're a WordPress user, you'll be happy to know there's [Markdown support](https://en.support.wordpress.com/markdown/) for websites hosted on WordPress.com. Self-hosted WordPress sites can use the [Jetpack plugin](https://jetpack.com/support/markdown/).
+If you'd like to use a content management system (CMS) to power your website, take a look at [Ghost](https://ghost.org/). It's a free and open-source blogging platform with a nice Markdown editor. If you're a WordPress user, you'll be happy to know there's [Markdown support](https://en.support.wordpress.com/markdown/) for websites hosted on WordPress.com. Self-hosted WordPress sites can use the [Jetpack plugin](https://jetpack.com/support/jetpack-blocks/markdown/).
 
 ## Documents
 
