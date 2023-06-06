@@ -258,7 +258,7 @@ Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines betwee
 
 {title="Markdown"}
 ~~~~~~~
-> This the first paragraph.
+> This is the first paragraph.
 >
 > And this is the second paragraph.
 ~~~~~~~
@@ -266,14 +266,14 @@ Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines betwee
 {title="HTML", lang=html}
 ~~~~~~~
 <blockquote>
-  <p>This the first paragraph.</p>
+  <p>This is the first paragraph.</p>
   <p>And this is the second paragraph.</p>
 </blockquote>
 ~~~~~~~
 
 The rendered output looks like this:
 
-> This the first paragraph.
+> This is the first paragraph.
 >
 > And this is the second paragraph.
 
@@ -283,7 +283,7 @@ Blockquotes can be nested. Add a `>>` in front of the paragraph you want to nest
 
 {title="Markdown"}
 ~~~~~~~
-> This the first paragraph.
+> This is the first paragraph.
 >
 >> And this is the nested paragraph.
 ~~~~~~~
@@ -291,7 +291,7 @@ Blockquotes can be nested. Add a `>>` in front of the paragraph you want to nest
 {title="HTML", lang=html}
 ~~~~~~~
 <blockquote>
-  <p>This the first paragraph.</p>
+  <p>This is the first paragraph.</p>
   <blockquote>
     <p>And this is the nested paragraph.</p>
   </blockquote>
@@ -300,7 +300,7 @@ Blockquotes can be nested. Add a `>>` in front of the paragraph you want to nest
 
 The rendered output looks like this:
 
-> This the first paragraph.
+> This is the first paragraph.
 >
 >> And this is the nested paragraph.
 
